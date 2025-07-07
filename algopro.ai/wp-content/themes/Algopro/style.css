@@ -1,0 +1,79 @@
+/*
+Theme Name: Algo-Pro
+Author: T.Pyat
+Description: A custom WordPress theme named Algo-Pro.
+Version: 1.0
+Text Domain: algo-pro
+*/
+
+body {
+  font-family: 'Montserrat';
+	overflow-x: hidden;
+	background: var(--primary-p-6);
+}
+
+.container {
+  max-width: 1210px;
+	width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+:root {
+	--font-family: "Montserrat", sans-serif;
+	--second-family: "Poppins", sans-serif;
+	--third-family: "Inter", sans-serif;
+	--font3: "Rubik", sans-serif;
+	--font4: "Public Sans", sans-serif;
+	--green-trustpilot: #1bb57c;
+	--red: #ff3636;
+	--primary-p-1: #fff;
+	--primary-p-2: #68eafc;
+	--primary-p-3: #003bfa;
+	--primary-p-4: #1f1f1f;
+	--primary-p-5: #0d0d0d;
+	--primary-p-6: #000;
+	--primary-p-7: #00061a;
+	--neutro-n-00: #fff;
+	--neutro-n-05: #f4f4f4;
+	--neutro-n-10: #dfdfdf;
+	--neutro-n-20: #bfbfbf;
+	--neutro-n-30: #b8bbbf;
+	--neutro-n-40: #9f9f9f;
+	--neutro-n-60: #2c3037;
+	--neutro-n-80: #1a1a1a;
+	--neutro-n-100: #020710;
+	--white-mike: #fff;
+	--grey-mike: #a0a9c0;
+	--black-mike: #262626;
+	--blue-mike: #1f7dfe;
+	--bg-mike: #0e1426;
+	--grey-basic: #7e7e7e;
+	--light-dark: #f5f1e9;
+	--color-white: #f5f5f5;
+	--color-dark: #0f0f0f;
+}
+
+
+.slick-dots {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.slick-dots li {
+    display: block;
+    width: 10px;
+    height: 6px;
+    border-radius: 12px;
+    background: #21283D;
+    transition: .4s ease all;
+}
+
+.slick-dots .slick-active {
+    width: 25px !important;
+    background: #FFFFFF;
+    transition: .4s ease all;
+}
